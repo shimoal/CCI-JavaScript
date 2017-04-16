@@ -15,7 +15,8 @@ LinkedList.prototype.addToTail = function(value){
     this.head = node;
     this.tail = node;
   } else {
-    this.tail.next = node
+    this.tail.next = node;
+    this.tail = node;
   }
 }
 
