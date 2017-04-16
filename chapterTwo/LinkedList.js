@@ -22,3 +22,5 @@ LinkedList.prototype.addToTail = function(value){
 LinkedList.prototype.removeHead = function(value){
   this.head = this.head.next;
 }
+
+module.exports = LinkedList;
